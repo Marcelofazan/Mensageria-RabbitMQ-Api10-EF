@@ -1,5 +1,5 @@
 ## 🚀 RabbitMQprodutor
-Exemplo de criação API de Comunicação por Mensagaria com RabbitMQ em C# NET Core 10 com banco de dados SQLite.
+Exemplo de criação API de Comunicação por Mensagaria com RabbitMQ em C# ASP.NET Core 10 com banco de dados SQLite.
 
 #### 🔄 Executar a aplicação 
 
