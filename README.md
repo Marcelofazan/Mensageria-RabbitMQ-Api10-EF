@@ -1,6 +1,12 @@
 ## 🔌 RabbitMQprodutor
 Exemplo de Comunicação API por Mensageria com RabbitMQ em C# ASP.NET Core 10 com banco de dados SQLite.
 
+| Tecnologia | Descrição     |
+|----------------|-----------|
+| **Consumidor**|A mensagem é armazenada com segurança em uma fila até que o consumidor (o serviço de destino) esteja pronto para pegá-la e processá-la. |
+| **Mensageria**|  mecanismo de comunicação onde sistemas trocam dados enviando mensagens para filas (queues) ou tópicos (topics), em vez de fazerem chamadas diretas síncronas (como um HTTP REST tradicional) |
+| **Produtor**| É a aplicação ou serviço que gera a mensagem e a envia para o RabbitMQ |
+
 #### 🔄 Executar a aplicação 
 
 VSCode Terminal [1]
