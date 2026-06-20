@@ -7,6 +7,9 @@ Exemplo de comunicação API por mensageria com RabbitMQ em C# ASP.NET Core 10 c
 | **Mensageria**|  mecanismo de comunicação onde sistemas trocam dados enviando mensagens para filas (queues) ou tópicos (topics), em vez de fazerem chamadas diretas síncronas (como um HTTP REST tradicional) |
 | **Produtor**| É a aplicação ou serviço que gera a mensagem e a envia para o RabbitMQ |
 
+#### 🔍 Requisitos do Projeto
+- Necessário **Docker** instalado.
+
 ## 📁 RabbitMQprodutor
 #### 🔄 Executar a aplicação 
 
@@ -26,10 +29,8 @@ dotnet run
 | **API**      | http://localhost:5010/swagger/index.html  |
 | **RabbitMQ** | http://localhost:15672/ |
 
-#### ⚙️ RabbitMQ -> Queues and Streams
-- Em Queues , existe uma tabela Overview na coluna name , clique em **(fila)**
+Queues and Streams -> Em Queues , existe uma tabela Overview na coluna name , clique em **(fila)**
 Desça até o botão Get Message(s) , voçê encontrará o Json enviado.
-
 
 ## 📁  RabbitMQconsumir
 #### 🔄 Executar a aplicação 
